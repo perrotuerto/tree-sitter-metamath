@@ -1,0 +1,3 @@
+[submodule "opt/set.mm"]
+	path = opt/set.mm
+	url = https://github.com/metamath/set.mm.git
