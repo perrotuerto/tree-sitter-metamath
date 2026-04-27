@@ -27,4 +27,4 @@ from pathlib import Path
 tree = parser.parse(Path("path/to/database.mm").read_bytes())
 ```
 
-Have fun with the tree!
+Happy hacking!
