@@ -5,7 +5,7 @@
 Add this repo as dependency, for example:
 
 ```
-uv add "tree-sitter-metamath @ https://gitlab.com/perritotuerto/codigo/tree-sitter-metamath.git"
+uv add tree-sitter-metamath
 ```
 
 Create a parser:
