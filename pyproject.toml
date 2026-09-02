@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=62.4.0", "wheel"]
+requires = ["setuptools>=70.1.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -15,7 +15,8 @@ classifiers = [
 ]
 authors = [{ name = "Ramiro Santa Ana Anguiano", email = "hi@colima.press" }]
 requires-python = ">=3.10"
-license.text = "MIT"
+license = "MIT"
+license-files = ["LICENSE"]
 readme = "README.md"
 
 [project.urls]
