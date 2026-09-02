@@ -14,8 +14,8 @@
     }
   ],
   "metadata": {
-    "version": "1.0.0",
-    "license": "GPL-2.0",
+    "version": "0.1.0",
+    "license": "MIT",
     "description": "A simple and flexible computer-processable language that supports rigorously verifying, archiving, and presenting mathematical proofs.",
     "authors": [
       {
@@ -30,6 +30,7 @@
   "bindings": {
     "c": true,
     "go": true,
+    "java": false,
     "node": true,
     "python": true,
     "rust": true,

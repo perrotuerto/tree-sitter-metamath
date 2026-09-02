@@ -1,9 +1,9 @@
 [package]
 name = "tree-sitter-metamath"
 description = "A simple and flexible computer-processable language that supports rigorously verifying, archiving, and presenting mathematical proofs."
-version = "1.0.0"
+version = "0.1.0"
 authors = ["Ramiro Santa Ana Anguiano <hi@colima.press>"]
-license = "GPL-2.0"
+license = "MIT"
 readme = "README.md"
 keywords = ["incremental", "parsing", "tree-sitter", "metamath"]
 categories = ["parser-implementations", "parsing", "text-editors"]
@@ -18,7 +18,7 @@ include = [
   "queries/*",
   "src/*",
   "tree-sitter.json",
-  "LICENSE",
+  "/LICENSE",
 ]
 
 [lib]

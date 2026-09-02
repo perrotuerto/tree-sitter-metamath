@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tree-sitter-metamath"
 description = "A simple and flexible computer-processable language that supports rigorously verifying, archiving, and presenting mathematical proofs."
-version = "1.0.0"
+version = "0.1.0"
 keywords = ["incremental", "parsing", "tree-sitter", "metamath"]
 classifiers = [
   "Intended Audience :: Developers",
@@ -15,7 +15,7 @@ classifiers = [
 ]
 authors = [{ name = "Ramiro Santa Ana Anguiano", email = "hi@colima.press" }]
 requires-python = ">=3.10"
-license.text = "GPL-2.0"
+license.text = "MIT"
 readme = "README.md"
 
 [project.urls]

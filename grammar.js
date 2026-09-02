@@ -1,7 +1,7 @@
 /**
  * @file A simple and flexible computer-processable language that supports rigorously verifying, archiving, and presenting mathematical proofs.
  * @author Ramiro Santa Ana Anguiano <hi@colima.press>
- * @license GPL-2.0
+ * @license MIT
  */
 
 /// <reference types="tree-sitter-cli/dsl" />
@@ -9,7 +9,7 @@
 
 // Based on Metamath Language EBNF, Appendix E, https://us.metamath.org/downloads/metamath.pdf
 // For a ANTLR4 version cfr. https://github.com/antlr/grammars-v4/blob/master/metamath/metamath.g4
-module.exports = grammar({
+export default grammar({
   name: "metamath",
 
   extras: ($) => [$._comment, $._whitechar],
